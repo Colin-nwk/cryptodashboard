@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .btn-hover {
+    @apply bg-blue-500 transition-all text-white duration-200 shadow-sky-900 scale-110 rounded-md ease-in-out;
+  }
+
+  .btn-active {
+    @apply bg-blue-700 transition-all text-white duration-200 shadow-sky-900 scale-95 rounded-md ease-in-out;
+  }
+}
